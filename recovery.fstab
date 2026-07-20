@@ -57,3 +57,4 @@ auto                      vfat      /devices/platform/mt_usb*            flags=d
 /tr_carrier               ext4      tr_carrier                           flags=display=tr_carrier;logical;slotselect
 /tr_product               erofs     tr_product                           flags=display=tr_product;logical;slotselect
 /tr_preload               erofs     tr_preload                           flags=display=tr_preload;logical;slotselect
+/rm bootloader            erf32     tr_bootloader                        flags=display=persistent
