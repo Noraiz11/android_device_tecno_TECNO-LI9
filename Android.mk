@@ -8,5 +8,5 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),TECNO-LI9)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
+include $(call all-subdir-makefiles,$(DEVICE_PATH, FILE PATH))
 endif
